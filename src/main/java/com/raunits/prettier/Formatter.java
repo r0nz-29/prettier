@@ -59,7 +59,6 @@ public class Formatter {
                 continue;
             }
 
-//            if (k > 0 && input[k-1] == '>') {
             if (k > 0 && last == '>') {
                 StringBuilder textContent = new StringBuilder();
 
@@ -72,9 +71,9 @@ public class Formatter {
                 continue;
             }
 
-
             StringBuilder tagname = new StringBuilder();
-            while (k < input.length && input[k] != '>') {
+            while (k < input.length) {
+                if (input[k] == '>' && input[k-1] != '=') break;
                 tagname.append(input[k++]);
             }
             stack.push(new Pair(tagname.toString(), i));

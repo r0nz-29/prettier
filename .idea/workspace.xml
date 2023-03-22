@@ -7,7 +7,6 @@
     <list default="true" id="16e6401f-9bfd-4152-96b4-f6c9dfd9beaa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/raunits/prettier/Formatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raunits/prettier/Formatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/raunits/prettier/Prettier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raunits/prettier/Prettier.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,7 @@
       <workItem from="1679206115498" duration="4248000" />
       <workItem from="1679244995741" duration="1128000" />
       <workItem from="1679423748327" duration="3823000" />
+      <workItem from="1679465227889" duration="2176000" />
     </task>
     <servers />
   </component>
